@@ -7,6 +7,9 @@ VOLUME ["/run"]
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
+# Fix package version conflicts
+RUN apk upgrade --no-cache
+
 RUN \
   echo "**** downloading babybuddy ****" && \
   curl -o \
