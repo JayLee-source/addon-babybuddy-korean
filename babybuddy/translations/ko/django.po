@@ -710,3 +710,39 @@ msgstr "슬러그"
 
 msgid "Username"
 msgstr "아이디"
+
+msgid "First name"
+msgstr "이름"
+
+msgid "Last name"
+msgstr "성"
+
+msgid "Birth time"
+msgstr "출생 시간"
+
+msgid "Add Child"
+msgstr "아이 추가"
+
+msgid "Add Note"
+msgstr "메모 추가"
+
+msgid "Start Timer"
+msgstr "타이머 시작"
+
+msgid "View Timers"
+msgstr "타이머 목록"
+
+msgid "Quick Start Timer"
+msgstr "빠른 타이머 시작"
+
+msgid "If supported by browser, the dashboard will only refresh when visible, and also when receiving focus."
+msgstr "브라우저가 지원하는 경우, 대시보드는 화면에 보일 때와 포커스를 받을 때만 새로고침됩니다."
+
+msgid "This setting controls which data will be shown in the dashboard."
+msgstr "이 설정은 대시보드에 표시할 데이터 범위를 조정합니다."
+
+msgid "The minimum default time that a sleep entry is consider a nap. If set the nap property will be preselected if the start time is within the bounds."
+msgstr "수면 기록이 낮잠으로 간주되는 최소 시작 시간입니다. 설정 시 시작 시간이 범위 안에 있으면 낮잠이 자동 선택됩니다."
+
+msgid "The maximum default time that a sleep entry is consider a nap. If set the nap property will be preselected if the start time is within the bounds."
+msgstr "수면 기록이 낮잠으로 간주되는 최대 시작 시간입니다. 설정 시 시작 시간이 범위 안에 있으면 낮잠이 자동 선택됩니다."
