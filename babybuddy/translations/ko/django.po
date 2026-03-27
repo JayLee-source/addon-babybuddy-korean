@@ -746,3 +746,81 @@ msgstr "수면 기록이 낮잠으로 간주되는 최소 시작 시간입니다
 
 msgid "The maximum default time that a sleep entry is consider a nap. If set the nap property will be preselected if the start time is within the bounds."
 msgstr "수면 기록이 낮잠으로 간주되는 최대 시작 시간입니다. 설정 시 시작 시간이 범위 안에 있으면 낮잠이 자동 선택됩니다."
+
+msgid "Switch child"
+msgstr "아이 변경"
+
+msgid "most recent"
+msgstr "최근"
+
+msgid "Not enough data"
+msgstr "데이터가 부족합니다"
+
+msgid "Diaper change frequency (past 3 days)"
+msgstr "기저귀 교체 빈도 (최근 3일)"
+
+msgid "Past Week"
+msgstr "지난 1주일"
+
+msgid "wet"
+msgstr "소변"
+
+msgid "dry"
+msgstr "없음"
+
+msgid "solid"
+msgstr "대변"
+
+msgid "feeding"
+msgstr "수유"
+
+msgid "feedings"
+msgstr "수유"
+
+msgid "change"
+msgstr "교체"
+
+msgid "changes"
+msgstr "교체"
+
+msgid "sleep"
+msgstr "수면"
+
+msgid "timer"
+msgstr "타이머"
+
+msgid "timers"
+msgstr "타이머"
+
+msgid "0 timers"
+msgstr "타이머 없음"
+
+msgid "No timers"
+msgstr "타이머 없음"
+
+msgid "%(count)s feeding"
+msgstr "수유 %(count)s회"
+
+msgid "%(count)s feedings"
+msgstr "수유 %(count)s회"
+
+msgid "%(count)s change"
+msgstr "교체 %(count)s회"
+
+msgid "%(count)s changes"
+msgstr "교체 %(count)s회"
+
+msgid "%(count)s wet"
+msgstr "소변 %(count)s회"
+
+msgid "%(count)s dry"
+msgstr "없음 %(count)s회"
+
+msgid "%(count)s solid"
+msgstr "대변 %(count)s회"
+
+msgid "%(count)s timer"
+msgstr "타이머 %(count)s개"
+
+msgid "%(count)s timers"
+msgstr "타이머 %(count)s개"
