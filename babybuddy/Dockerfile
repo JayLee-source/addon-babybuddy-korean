@@ -86,7 +86,10 @@ RUN \
   /tmp/* \
   /usr/lib/node_modules \
   /usr/local/share/.cache
-
+# Korean translation
+RUN mkdir -p /app/babybuddy/locale/ko/LC_MESSAGES
+COPY translations/ko/django.po /app/babybuddy/locale/ko/LC_MESSAGES/django.po
+COPY translations/ko/django.mo /app/babybuddy/locale/ko/LC_MESSAGES/django.mo
 COPY root /
 
 # Build arguments
