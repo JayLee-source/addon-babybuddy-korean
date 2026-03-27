@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:18.2.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:20.0.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -6,9 +6,6 @@ VOLUME ["/run"]
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-# Fix package version conflicts
-RUN apk upgrade --no-cache
 
 RUN \
   echo "**** downloading babybuddy ****" && \
