@@ -90,6 +90,7 @@ RUN \
 RUN mkdir -p /app/babybuddy/locale/ko/LC_MESSAGES
 COPY translations/ko/django.po /app/babybuddy/locale/ko/LC_MESSAGES/django.po
 COPY translations/ko/django.mo /app/babybuddy/locale/ko/LC_MESSAGES/django.mo
+RUN sed -i 's/("it", _("Italian")),/("it", _("Italian")),\n    ("ko", _("Korean")),/' /app/babybuddy/babybuddy/settings/base.py
 COPY root /
 
 # Build arguments
