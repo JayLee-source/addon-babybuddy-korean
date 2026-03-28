@@ -824,3 +824,81 @@ msgstr "타이머 %(count)s개"
 
 msgid "%(count)s timers"
 msgstr "타이머 %(count)s개"
+
+# === Timeline 이벤트 문자열 ===
+
+msgid "%(child)s started feeding."
+msgstr "%(child)s 수유를 시작했어요."
+
+msgid "%(child)s finished feeding."
+msgstr "%(child)s 수유를 마쳤어요."
+
+msgid "%(child)s had a feeding."
+msgstr "%(child)s 수유를 했어요."
+
+msgid "%(child)s fell asleep."
+msgstr "%(child)s 잠들었어요."
+
+msgid "%(child)s woke up."
+msgstr "%(child)s 일어났어요."
+
+msgid "%(child)s started tummy time!"
+msgstr "%(child)s 터미 타임을 시작했어요!"
+
+msgid "%(child)s finished tummy time."
+msgstr "%(child)s 터미 타임을 마쳤어요."
+
+msgid "%(child)s had a %(type)s diaper change."
+msgstr "%(child)s %(type)s 기저귀를 교체했어요."
+
+msgid "%(child)s had a temperature measurement."
+msgstr "%(child)s 체온을 측정했어요."
+
+# === Timeline 템플릿 라벨 ===
+
+msgid "since previous"
+msgstr "이전으로부터"
+
+# === 수유/기록 추가 폼 ===
+
+msgid "Add a Feeding"
+msgstr "수유 추가"
+
+msgid "Add a Bottle Feeding"
+msgstr "젖병 수유 추가"
+
+msgid "Add a Temperature Entry"
+msgstr "체온 기록 추가"
+
+msgid "Add a Tummy Time Entry"
+msgstr "터미 타임 추가"
+
+msgid "Add a Diaper Change"
+msgstr "기저귀 교체 추가"
+
+msgid "Add a Weight Entry"
+msgstr "체중 기록 추가"
+
+msgid "Add a Sleep Entry"
+msgstr "수면 기록 추가"
+
+msgid "Add a Head Circumference Entry"
+msgstr "머리 둘레 기록 추가"
+
+msgid "Add a Height Entry"
+msgstr "키 기록 추가"
+
+msgid "Add a BMI Entry"
+msgstr "BMI 기록 추가"
+
+msgid "Add a Note"
+msgstr "메모 추가"
+
+msgid "Advanced Fields"
+msgstr "고급 항목"
+
+msgid "Amt."
+msgstr "양"
+
+msgid "Birth Date"
+msgstr "탄생일"
