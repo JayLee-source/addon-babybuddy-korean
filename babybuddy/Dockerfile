@@ -1,4 +1,4 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:17.2.1
+ARG BUILD_FROM=ghcr.io/hassio-addons/base:20.0.1
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
@@ -86,6 +86,12 @@ RUN \
   /tmp/* \
   /usr/lib/node_modules \
   /usr/local/share/.cache
+
+# Korean translation
+RUN mkdir -p /app/babybuddy/locale/ko/LC_MESSAGES
+COPY translations/ko/django.po /app/babybuddy/locale/ko/LC_MESSAGES/django.po
+COPY translations/ko/django.mo /app/babybuddy/locale/ko/LC_MESSAGES/django.mo
+RUN sed -i 's/("it", _("Italian")),/("it", _("Italian")),\n    ("ko", _("Korean")),/' /app/babybuddy/babybuddy/settings/base.py
 
 COPY root /
 
