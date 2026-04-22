@@ -19,7 +19,7 @@ ingress_port: 1337
 ingress_stream: false
 panel_admin: false
 options:
-  CSRF_TRUSTED_ORIGINS: "http://local-baby-buddy:1337,https://plex.sabrinaworks.co.kr:8008,https://iot.sabrinaworks.co.kr:3218,http://iot.sabrina.com:8123"
+  CSRF_TRUSTED_ORIGINS: ""
   INGRESS_USER: ""
   log_level: info
 schema:
