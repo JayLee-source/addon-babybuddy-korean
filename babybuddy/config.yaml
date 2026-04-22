@@ -1,13 +1,17 @@
 ---
-name: Baby Buddy
-version: 2.7.1
+name: Baby Buddy(Korean)
+version: 999.2.7.1
 homeassistant: 2023.6.2
 slug: baby_buddy
+#image: "ottpeterr/image-{arch}-babybuddy"
 description: Track sleep, feedings, diaper changes, tummy time and more!
 url: https://github.com/OttPeterR/addon-babybuddy
 arch:
   - aarch64
   - amd64
+  - armhf
+  - armv7
+  - i386
 init: false
 panel_icon: hass:baby-bottle
 ingress: true
@@ -15,7 +19,7 @@ ingress_port: 1337
 ingress_stream: false
 panel_admin: false
 options:
-  CSRF_TRUSTED_ORIGINS: ""
+  CSRF_TRUSTED_ORIGINS: "http://local-baby-buddy:1337,https://plex.sabrinaworks.co.kr:8008,https://iot.sabrinaworks.co.kr:3218,http://iot.sabrina.com:8123"
   INGRESS_USER: ""
   log_level: info
 schema:
