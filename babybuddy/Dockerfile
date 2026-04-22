@@ -1,4 +1,4 @@
-ARG CACHE_BUST=1
+# Fixed Base image compatibility(2026-04-22)
 ARG BUILD_FROM=ghcr.io/hassio-addons/base::20.1.0
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
@@ -88,9 +88,11 @@ RUN \
   /usr/lib/node_modules \
   /usr/local/share/.cache
 
-# Korean translation
+# Korean translation : Fixed mo/po file path issue(2026-04-22)
 RUN mkdir -p /app/babybuddy/locale/ko/LC_MESSAGES
+#COPY translations/ko/django.po /app/babybuddy/locale/it/LC_MESSAGES/django.po
 COPY translations/ko/django_ko.po /app/babybuddy/locale/ko/LC_MESSAGES/django.po
+#COPY translations/ko/django.mo /app/babybuddy/locale/it/LC_MESSAGES/django.mo
 COPY translations/ko/django_ko.mo /app/babybuddy/locale/ko/LC_MESSAGES/django.mo
 COPY translations/settings/base.py /app/babybuddy/babybuddy/settings/base.py
 #RUN sed -i 's/("it", _("Italian")),/("it", _("Italian")),\n    ("ko", _("Korean")),/' /app/babybuddy/babybuddy/settings/base.py
